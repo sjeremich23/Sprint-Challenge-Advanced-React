@@ -56,7 +56,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  background: linear-gradient(141deg, #404241 0%, #161a53 51%, #38270d 75%);
+  background: rgb(2, 240, 248);
 }
 
 h1 {
@@ -69,12 +69,60 @@ h1 {
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 1px 6px -2px #000;
-  background-color: #FFF;
   margin: 2%;
+  text-align: center;
 }
 
 .row-wrapper {
   display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
+}
+
+.dark-mode__toggle {
+  background: #fff;;
+  border-radius: 50px;
+  border: 1px solid black;
+  height: 20px;
+  position: relative;
+  width: 40px;
+}
+
+.dark-mode {
+  color: #fff;
+  background-color: #313843
+}
+
+.dark-mode button {
+  color: #fff;
+  border: 1px solid white;
+}
+
+
+button {
+  border: 1px solid black;
+  background-color: transparent;
+}
+
+.dark-mode__toggle {
+  background: #fff;
+  border-radius: 50px;
+  border: 1px solid black;
+  height: 20px;
+  position: relative;
+  width: 40px;
+}
+
+.toggle {
+  background: #800461;
+  border-radius: 50px;
+  height: 18px;
+  left: 0;
+  position: absolute;
+  transition: 0.2s;
+  width: 20px;
+}
+
+.toggled {
+  left: 18px;
 }
