@@ -12,7 +12,7 @@ const Header = () => {
       <>
         <Center>
         
-          <h1>Women's World Cup Search Players</h1>
+          <h1>Women's World Cup Players Google Search Results</h1>
         
         
         <div className="dark-mode__toggle">
